@@ -20,27 +20,27 @@
 
 ```
 📦 AuthenticationTest
-├── 🎯 AuthenticationTest.AppHost          # Orquestador .NET Aspire
-├── 🌐 AuthenticationTest.Web              # Frontend Blazor Server
-├── 🔌 AuthenticationTest.Api              # API de autenticación
-├── ⚡ AuthenticationTest.ApiService        # Servicios API
-├── 📚 AuthenticationTest.Application      # Capa de aplicación (lógica de negocio)
-├── 🛠️ AuthenticationTest.ServiceDefaults  # Configuraciones compartidas de Aspire
-├── 🧪 AuthenticationTest.Tests            # Tests de integración
-└── ✅ AuthenticationTest.Application.Tests.Unit  # Tests unitarios
+├── 🎯 AuthenticationTest.AppHost                   # Orquestador .NET Aspire
+├── 🌐 AuthenticationTest.Web                       # Frontend Blazor Server
+├── 🔌 AuthenticationTest.Api                       # API de autenticación
+├── ⚡ AuthenticationTest.ApiService                # Servicios API
+├── 📚 AuthenticationTest.Application               # Capa de aplicación (lógica de negocio)
+├── 🛠️ AuthenticationTest.ServiceDefaults           # Configuraciones compartidas de Aspire
+├── 🧪 AuthenticationTest.Tests                     # Tests de integración
+└── ✅ AuthenticationTest.Application.Tests.Unit    # Tests unitarios
 ```
 
 ---
 
 ## ✨ Características
 
-- 🔑 **Autenticación JWT** - Sistema seguro de tokens
-- 🏢 **Clean Architecture** - Separación clara de responsabilidades
-- ☁️ **.NET Aspire** - Orquestación y observabilidad cloud-native
-- 🎨 **Blazor Server** - UI interactiva con componentes Razor
-- 🧪 **Testing** - Tests unitarios e integración incluidos
-- 📡 **Service Discovery** - Descubrimiento automático de servicios
-- 🔒 **Seguridad** - Validación de tokens con múltiples parámetros
+- 🔑 **Autenticación JWT**    - Sistema seguro de tokens
+- 🏢 **Clean Architecture**   - Separación clara de responsabilidades
+- ☁️ **.NET Aspire**          - Orquestación y observabilidad cloud-native
+- 🎨 **Blazor Server**        - UI interactiva con componentes Razor
+- 🧪 **Testing**              - Tests unitarios e integración incluidos
+- 📡 **Service Discovery**    - Descubrimiento automático de servicios
+- 🔒 **Seguridad**            - Validación de tokens con múltiples parámetros
 
 ---
 
