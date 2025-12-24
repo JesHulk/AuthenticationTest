@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Sdk Name="Aspire.AppHost.Sdk" Version="9.5.0" />
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>c1d2abff-824c-42f0-aab2-a4dd9a876293</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AuthenticationTest.ApiService\AuthenticationTest.ApiService.csproj" />
+    <ProjectReference Include="..\AuthenticationTest.Api\AuthenticationTest.Api.csproj" />
+    <ProjectReference Include="..\AuthenticationTest.Web\AuthenticationTest.Web.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.AppHost" Version="13.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="10.0.1" />
+  </ItemGroup>
+
+</Project>

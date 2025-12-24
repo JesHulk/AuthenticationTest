@@ -1,0 +1,10 @@
+﻿global using System.IdentityModel.Tokens.Jwt;
+global using System.Security.Claims;
+global using System.Text;
+global using AuthenticationTest.Application.DTOs;
+global using AuthenticationTest.Application.Settings;
+global using Microsoft.Extensions.Options;
+global using Microsoft.IdentityModel.Tokens;
+global using AuthenticationTest.Application.Services;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.Extensions.DependencyInjection;

@@ -1,0 +1,31 @@
+# User-specific files
+*.user
+*.userosscache
+*.suo
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+bin/
+obj/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# User secrets
+**/secrets.json
+
+# Visual Studio
+.vs/
+*.csproj.user
+launchSettings.json
+
+# Rider
+.idea/
+
+# Environment files
+.env
+*.local.json
+appsettings.*.local.json

@@ -1,0 +1,10 @@
+<Solution>
+  <Project Path="AuthenticationTest.Api/AuthenticationTest.Api.csproj" />
+  <Project Path="AuthenticationTest.ApiService/AuthenticationTest.ApiService.csproj" />
+  <Project Path="AuthenticationTest.AppHost/AuthenticationTest.AppHost.csproj" />
+  <Project Path="AuthenticationTest.Application.Tests.Unit/AuthenticationTest.Application.Tests.Unit.csproj" Id="5fc11add-ceca-41a5-ad1a-e471094f8883" />
+  <Project Path="AuthenticationTest.Application/AuthenticationTest.Application.csproj" Id="f02738de-fd0b-4023-8c30-b7010c5538eb" />
+  <Project Path="AuthenticationTest.ServiceDefaults/AuthenticationTest.ServiceDefaults.csproj" />
+  <Project Path="AuthenticationTest.Tests/AuthenticationTest.Tests.csproj" />
+  <Project Path="AuthenticationTest.Web/AuthenticationTest.Web.csproj" />
+</Solution>
